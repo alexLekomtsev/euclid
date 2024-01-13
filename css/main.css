@@ -1,0 +1,15 @@
+@import url("_normalize.css");
+@import url("_fonts.css");
+@import url("_base.css");
+@import url("_variables.css");
+
+/* components import */
+
+@import url("components/_header.css");
+@import url("components/_hero.css");
+@import url("components/_about.css");
+@import url("components/_stages.css");
+@import url("components/_questions.css");
+@import url("components/_footer.css");
+
+@import url("_media.css");

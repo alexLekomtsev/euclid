@@ -1,0 +1,107 @@
+.stages {
+  margin-bottom: var(--sections-offset);
+}
+
+.stages__title {
+  margin-bottom: 34px;
+}
+
+.stages__container {
+  justify-content: space-between;
+}
+
+.stages__content {
+  margin-right: 50px;
+  max-width: 758px;
+}
+
+.stages__content-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  color: var(--black);
+}
+
+.stages__content-descr {
+  max-width: 700px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  color: var(--black);
+}
+
+.stages__img {
+  padding-top: 9px;
+  max-width: 870px;
+
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.stages__buttons {
+  gap: 32px;
+}
+
+.stages__btn {
+  padding: 19px 38px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 16px;
+  transition: border-color var(--transition),
+              background-color var(--transition),
+              color var(--transition);
+}
+
+.stages__btn_orange {
+  border: 1px solod var(--orange);
+  background-color: var(--orange);;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.stages__btn_orange:focus {
+  outline: none;
+  border-color: var(--orange-hover);
+  background-color: var(--orange-hover);
+}
+
+@media (min-width: 992px) {
+  .stages__btn_orange:hover {
+    border-color: var(--orange-hover);
+    background-color: var(--orange-hover);
+  }
+}
+
+.stages__btn_orange:active {
+  border-color: var(--orange-active);
+  background-color: var(--orange-active);
+}
+
+.stages__btn_white {
+  border: 1px solid var(--black);
+  font-weight: 400;
+  color: var(--black);
+}
+
+.stages__btn_white:focus {
+  outline: none;
+  border-color: var(--gray);
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+@media (min-width: 992px) {
+  .stages__btn_white:hover {
+    border-color: var(--gray);
+    background-color: var(--gray);
+    color: var(--white);
+  }
+}
+
+.stages__btn_white:active {
+  border-color: var(--black);
+  background-color: var(--black);
+  color: var(--white);
+}
