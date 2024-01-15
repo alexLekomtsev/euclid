@@ -18,6 +18,14 @@
   .questions__content-title {
     max-width: 100%;
   }
+
+  .footer__center {
+    width: 100%;
+  }
+
+  .footer__descr {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -121,10 +129,6 @@
 
   .form__btn {
     padding: 19px 37px;
-  }
-
-  .footer__descr {
-    display: none;
   }
 }
 
